@@ -6,6 +6,10 @@ body{
     margin: 0;
 }
 
+div span{
+    text-align: center;
+}
+
 .contenedor{
     width: 1050px;
     margin: 0 auto;
@@ -78,3 +82,5 @@ p{
     margin-right: 50px;
     margin-top: 100px;
 }
+
+
