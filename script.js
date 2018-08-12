@@ -168,3 +168,5 @@ window.addEventListener('load', function(){
 
     setInterval(cambiarImagenes6 , tiempo6);
 });
+
+/*BOTONES*/
