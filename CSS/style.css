@@ -66,13 +66,7 @@ p{
 
 /*Botones*/
 .botones{
-    -webkit-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-}
-
-.botones:hover{
-    cursor: pointer;
+    text-decoration: none;
 }
 
 /*Últimas dos descripciones*/
