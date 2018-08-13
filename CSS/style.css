@@ -1,3 +1,4 @@
+/*General*/
 body{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,32 +11,38 @@ div span{
     text-align: center;
 }
 
+/*Contenedor*/
 .contenedor{
     width: 1050px;
     margin: 0 auto;
 }
 
+/*Helper*/
 .clearfix::after {
     display: block;
     content: "";
     clear: both;
 }
 
+/*Header*/
 .header{
     height: 100px;
     background-color: #F4D03F ;
+    margin-bottom: 100px;
 }
 
 h1{
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 0px;
+    padding-top: 25px;
 }
 
 p{
     display: inline-block;
 }
 
+/*Descripciones*/
 .descripcion1{
     background-color: #82E0AA;
     margin-bottom: 30px;
@@ -46,6 +53,7 @@ p{
     margin-bottom: 30px;
 }
 
+/*Imágenes*/
 .imagen1{
     margin-top: 60px;
     float: right;
@@ -56,17 +64,18 @@ p{
     float: left;
 }
 
-.footer{
-    height: 160px;
-    background-color: #F4D03F;
-    text-align: center;
-
+/*Botones*/
+.botones{
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
-.nombres{
-    padding-top: 25px;
+.botones:hover{
+    cursor: pointer;
 }
 
+/*Últimas dos descripciones*/
 .texto1{
     float: left;
     height: 400px;
@@ -83,4 +92,15 @@ p{
     margin-top: 100px;
 }
 
+/*Footer*/
+.footer{
+    height: 160px;
+    background-color: #F4D03F;
+    text-align: center;
+
+}
+
+.nombres{
+    padding-top: 25px;
+}
 
