@@ -65,6 +65,27 @@ p{
 }
 
 /*Botones*/
+
+.punto{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.punto:first-child{
+    margin-left: 215px;
+}
+
+.punto:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+.botones{
+    display: inline-block;
+}
 .botones{
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
