@@ -67,3 +67,14 @@ function cambiarImagenes(){
 
 // Funcion  que hacer que las imagenes cambien
 setInterval(cambiarImagenes , tiempo)
+
+
+//Botones
+
+//Botón anterior
+
+function ant(botonAnt){
+    let botonAnt = document.getElementById('ant-1');
+    
+
+}
