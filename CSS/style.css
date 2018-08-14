@@ -67,6 +67,7 @@ p{
 /*Botones*/
 .botones{
     text-decoration: none;
+    color: black;
 }
 
 /*Últimas dos descripciones*/
@@ -89,7 +90,7 @@ p{
 /*Footer*/
 .footer{
     height: 160px;
-    background-color: #F4D03F;
+    background-color: #e35d6a;
     text-align: center;
 
 }
