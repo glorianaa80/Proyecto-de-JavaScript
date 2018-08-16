@@ -27,7 +27,7 @@ div span{
 /*Header*/
 .header{
     height: 100px;
-    background-color: #F4D03F ;
+    background-color: 	#ff6f69 ;
     margin-bottom: 100px;
 }
 
@@ -49,7 +49,7 @@ p{
 }
 
 .descripcion2{
-    background-color:plum;
+    background-color: #ffcc5c;
     margin-bottom: 30px;
 }
 
@@ -103,7 +103,7 @@ a{
 /*Footer*/
 .footer{
     height: 160px;
-    background-color: #F4D03F;
+    background-color: 	#ff6f69;
     text-align: center;
 
 }
