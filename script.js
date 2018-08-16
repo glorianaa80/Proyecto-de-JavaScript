@@ -107,3 +107,5 @@ function playpause() {
         boton.src = "http://www.reciclay.com.ve/gio/play.png";
     }
 }
+
+
