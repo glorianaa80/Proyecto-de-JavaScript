@@ -97,7 +97,7 @@ function anterior() {
 
 // Funcion para que el boton de pause funcione. 
 function playpause() {
-    let boton = document.getElementById("btn");
+    let boton = document.getElementsByClassName("btn");
     if (carrousel == null) {
         boton.src = "http://www.reciclay.com.ve/gio/pause.png";
         carrousel = setInterval(cambiarImagenes, tiempo);
